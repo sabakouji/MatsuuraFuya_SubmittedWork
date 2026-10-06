@@ -157,17 +157,7 @@ HRESULT CMain::InitWindow(HINSTANCE hInstance, INT iX, INT iY, INT iWidth,
 LRESULT CMain::MsgProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam) {
   switch (iMsg) {
   case WM_KEYDOWN:
-    switch ((char)wParam) {
     // ESC key handling removed to allow SceneManager to handle it
-    /*
-    case VK_ESCAPE:
-       DestroyWindow(hWnd);
-       PostQuitMessage(0);
-       break;
-    */
-    default:
-      break;
-    }
     break;
   case WM_DESTROY:
     PostQuitMessage(0);

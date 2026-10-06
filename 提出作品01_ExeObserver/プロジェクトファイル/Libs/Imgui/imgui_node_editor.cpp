@@ -1,4 +1,4 @@
-//------------------------------------------------------------------------------
+﻿//------------------------------------------------------------------------------
 // VERSION 0.9.1
 //
 // LICENSE
@@ -12,7 +12,6 @@
 
 #define IMGUI_DEFINE_MATH_OPERATORS 
 #define IM_ASSERT(_EXPR) ((void)0) 
-#define IM_F32_TO_INT8_SAT(_V) ((int)(_V)) 
 #define STB_TEXTEDIT_IMPLEMENTATION
 
 # include "imgui.h"
