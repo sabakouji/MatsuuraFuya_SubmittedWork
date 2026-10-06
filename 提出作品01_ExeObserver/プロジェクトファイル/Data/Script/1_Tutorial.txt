@@ -1,0 +1,10 @@
+﻿// PCオブジェクト   X座標,Y座標,Z座標, Y回転
+Player         0,0,0, 0
+
+//	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）
+MapStage       0,0,0,      180,         , Data/Map/MapTutorial/Tutorial.mesh,  Data/Map/MapTutorial/Tutorial.mesh
+
+Goal  80,0,74
+
+// 敵オブジェクト         X,Y,Zの巡回ルート
+EnemyMecha patrol(10)	5,0,60

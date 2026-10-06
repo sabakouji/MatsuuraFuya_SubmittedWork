@@ -1,0 +1,8 @@
+// PCオブジェクト   X座標,Y座標,Z座標, Y回転
+Player         0,0,0, 0
+
+//	ステージマップ　MapStage   x, y, z, Y軸回転角度, タグ名, マップメッシュ名, コリジョンメッシュ名（コリジョンないときは省略）
+MapStage       0,0,0,      0,         , Data/Map/Map_BattleStage/Battle_Stage.mesh,  Data/Map/Map_BattleStage/Battle_Stage.mesh
+
+// バトルステージ   同時存在最大数, スポーン間隔(秒), 討伐目標数, 出現中心X, 出現中心Y, 出現中心Z, スポーン半径, パトロール範囲
+BattleStage      5,   5.0,  10,   0.0, 0.0, 0.0, 10.0, patrol(10.0)

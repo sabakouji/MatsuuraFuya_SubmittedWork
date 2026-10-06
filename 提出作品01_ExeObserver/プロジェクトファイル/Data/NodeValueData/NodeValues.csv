@@ -1,0 +1,25 @@
+# NodeValues.csv,,
+# BehaviorTree node numeric/bool parameters loaded at PlayScene start.,,
+# Pull-down (Enum) parameters such as targetBox/boxType are NOT listed here;,,
+# they remain editable in the visual editor.,,
+#,,
+# Format: TypeId,PropertyName,Value
+# Lines beginning with '#' or empty lines are ignored.,,
+#,,
+TypeId,PropertyName,Value
+Action_Run,speed,1
+Action_Run,arrivalDistance,1
+Action_RadarPulse,radius,1000
+Action_RadarScan,maxRadius,1000
+Action_RadarScan,expandSpeed,10
+Action_RadarScan,scanInterval,0.1
+Action_SetTargetPosition,targetX,0
+Action_SetTargetPosition,targetY,0
+Action_SetTargetPosition,targetZ,0
+Action_ExecuteAttack,attackRange,3
+Action_ExecuteAttack,damage,100
+Action_DetectObstacle,checkDistance,2
+Action_DetectObstacle,checkRadius,1
+Condition_HasTargetsInBox,minTargets,1
+Condition_IsNearTarget,distance,2
+Condition_InTheEyes,angle,90

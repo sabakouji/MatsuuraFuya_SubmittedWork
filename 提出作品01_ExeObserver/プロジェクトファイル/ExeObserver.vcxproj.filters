@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{ed911f62-ff4d-4d58-9c99-d126849ac4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Displace">
+      <UniqueIdentifier>{3d0a3951-1844-4ccf-9ff5-d3a664f9f590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Effect">
+      <UniqueIdentifier>{bac4fe59-4a90-488e-b30f-57915ccddaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\FbxMesh">
+      <UniqueIdentifier>{a692306f-f65d-4488-b866-a83ff50e06dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Simple">
+      <UniqueIdentifier>{3bbc01af-c937-4f90-813e-02d3d2fa85f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Sprite">
+      <UniqueIdentifier>{285c0275-a156-401b-a6dd-37f81cd4510e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Toon">
+      <UniqueIdentifier>{0f7c2f4a-6b1e-4d3c-9a52-1c8e6b4f7d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\00_Windowsメイン">
+      <UniqueIdentifier>{4bec077d-f207-450d-9af5-b4c5c367c2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_ゲームメイン">
+      <UniqueIdentifier>{d4461820-9e14-4d94-8b8b-b8f7ae575739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_ゲームライブラリ">
+      <UniqueIdentifier>{a1c9b705-5889-4267-bc09-734bc6922a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_DirectX">
+      <UniqueIdentifier>{51a6f6fe-62b4-4a6d-ac9c-940a26a47e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\04_ImGUI">
+      <UniqueIdentifier>{7c62f635-58ea-4305-be25-e23f3444c559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_フレームワーク">
+      <UniqueIdentifier>{2f52e50e-6224-4dbf-a930-01f696385c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\06_共通">
+      <UniqueIdentifier>{ef79b2b1-d77c-4e0f-ba34-50e4c05a169f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\07_TitleScene">
+      <UniqueIdentifier>{23c29058-2579-4bf4-a411-46e295d6a90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene">
+      <UniqueIdentifier>{54c21df3-e977-4cb1-b703-924c7617f825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0801_PlayScene">
+      <UniqueIdentifier>{4cdc06f4-60c9-437c-b530-7f431164f21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0802_Player">
+      <UniqueIdentifier>{7526ba08-4458-4d7e-8d35-7ac7637aa7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0804_Enemy">
+      <UniqueIdentifier>{22447d74-e974-4fea-b41c-dcd7d8edec98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0807_Map">
+      <UniqueIdentifier>{df11ea6c-cc2a-4bf2-8114-a4ddfe7ad45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0810_DisplayInfo">
+      <UniqueIdentifier>{2531edbe-4f38-4d3e-9266-2bbcdd12b129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0805_Weapon">
+      <UniqueIdentifier>{af158e6b-304e-4948-af1f-323cd7360afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0806_Effect">
+      <UniqueIdentifier>{0fc815a6-bcb4-47fc-8c45-d6a55f29f589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0809_Camera">
+      <UniqueIdentifier>{5dec4c59-d584-480b-ba8b-32013a36d8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0808_Event">
+      <UniqueIdentifier>{48d7a0c2-a3af-4297-853b-6693698bf706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0814_Item">
+      <UniqueIdentifier>{0058385f-3605-4f04-8aef-abcdcc213890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\Executor">
+      <UniqueIdentifier>{44fd2d08-8f08-4bd0-b531-9b19cfa305c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\Navimesh">
+      <UniqueIdentifier>{4483fcad-ce5e-4ced-a09d-86c81708cdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\Fade">
+      <UniqueIdentifier>{f0a0f3f4-0a5a-4cb7-a7cc-19e7656dc23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\Goal">
+      <UniqueIdentifier>{fb02c39a-8d32-48e2-9c60-2f20c75d89eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\追加ライブラリ">
+      <UniqueIdentifier>{37ee7154-27e7-45c3-bd8a-d31dc1a1c5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene">
+      <UniqueIdentifier>{4d53d914-e8e9-457d-90dc-2d3af8e24ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\10_SelectScene">
+      <UniqueIdentifier>{a3beeb85-5294-4b33-881d-e704abf25d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\09_Editor">
+      <UniqueIdentifier>{7dd72558-2e28-4d45-bca6-00a42d35ef06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\09_Editor\Visual_Editor">
+      <UniqueIdentifier>{091266f7-dcb4-446c-9595-3f5d751461b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\09_Editor\EditorScene">
+      <UniqueIdentifier>{a9970a8a-55bb-40d2-8c20-ae1adaeb02ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\11_MainSystem">
+      <UniqueIdentifier>{3731e39f-7309-46d2-9954-03b24d3ccf97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hlsl\DisplaceSkinMesh.hlsli">
+      <Filter>HLSL\Displace</Filter>
+    </None>
+    <None Include="Hlsl\DisplaceStaticMesh.hlsli">
+      <Filter>HLSL\Displace</Filter>
+    </None>
+    <None Include="Hlsl\DisplaceWave.hlsli">
+      <Filter>HLSL\Displace</Filter>
+    </None>
+    <None Include="Hlsl\Effect3D.hlsli">
+      <Filter>HLSL\Effect</Filter>
+    </None>
+    <None Include="Hlsl\FbxSkinMesh.hlsli">
+      <Filter>HLSL\FbxMesh</Filter>
+    </None>
+    <None Include="Hlsl\FbxStaticMesh.hlsli">
+      <Filter>HLSL\FbxMesh</Filter>
+    </None>
+    <None Include="Hlsl\Simple.hlsli">
+      <Filter>HLSL\Simple</Filter>
+    </None>
+    <None Include="Hlsl\Sprite3D.hlsli">
+      <Filter>HLSL\Sprite</Filter>
+    </None>
+    <None Include="Src\Main.aps">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Hlsl\DisplaceSkinMesh_DS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceSkinMesh_HS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceSkinMesh_PS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceSkinMesh_VS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceStaticMesh_DS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceStaticMesh_HS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceStaticMesh_PS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceStaticMesh_VS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceWave_DS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceWave_HS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceWave_PS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\DisplaceWave_VS.hlsl">
+      <Filter>HLSL\Displace</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Effect3D_GS_POINT.hlsl">
+      <Filter>HLSL\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Effect3D_PS.hlsl">
+      <Filter>HLSL\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Effect3D_VS_BILL.hlsl">
+      <Filter>HLSL\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Effect3D_VS_BILLMESH.hlsl">
+      <Filter>HLSL\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Effect3D_VS_POINT.hlsl">
+      <Filter>HLSL\Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\FbxSkinMesh_PS.hlsl">
+      <Filter>HLSL\FbxMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\FbxSkinMesh_VS.hlsl">
+      <Filter>HLSL\FbxMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\FbxStaticMesh_PS.hlsl">
+      <Filter>HLSL\FbxMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\FbxStaticMesh_VS.hlsl">
+      <Filter>HLSL\FbxMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Simple_PS.hlsl">
+      <Filter>HLSL\Simple</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Simple_VS.hlsl">
+      <Filter>HLSL\Simple</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Sprite3D_PS.hlsl">
+      <Filter>HLSL\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Sprite3D_VS.hlsl">
+      <Filter>HLSL\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Sprite3D_VS_BILL.hlsl">
+      <Filter>HLSL\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Toon_VS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Toon_PS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\ToonSkin_VS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Outline_VS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\Outline_PS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+    <FxCompile Include="Hlsl\OutlineSkin_VS.hlsl">
+      <Filter>HLSL\Toon</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Main.h">
+      <Filter>ソース ファイル\00_Windowsメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMain.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BBox.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Displace.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FbxMesh.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyImgui.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyMath.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sprite3D.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DInput.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Direct3D.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\XAudio.h">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imconfig.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui_impl_dx11.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui_impl_win32.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui_internal.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imstb_rectpack.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imstb_textedit.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imstb_truetype.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneManager.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneFactory.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SceneBase.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ObjectManager.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameObject.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Macro.h">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>ソース ファイル\07_TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ResourceManager.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CapsuleCollider.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainControl.h">
+      <Filter>ソース ファイル\00_Windowsメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CsvReader.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MeshCollider.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ClearScene.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ResultScore.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object3D.h">
+      <Filter>ソース ファイル\06_共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Animator.h">
+      <Filter>ソース ファイル\06_共通</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PlayScene.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player.h">
+      <Filter>ソース ファイル\08_PlayScene\0802_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapStage.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera.h">
+      <Filter>ソース ファイル\08_PlayScene\0809_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyBase.h">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapBase.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapMove.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextReader.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapSky.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapWave.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyGolem.h">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponBase.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponFireBall.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EffectBase.h">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EffectManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EffectBillboard.h">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EffectParticle.h">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EffectBillfire.h">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponFireBall2.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapTree.h">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponSword.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponGun.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\WeaponLaser.h">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AudioManager.h">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DisplayInfo.h">
+      <Filter>ソース ファイル\08_PlayScene\0810_DisplayInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DataCarrier.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\OverScene.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleDraw.h">
+      <Filter>ソース ファイル\07_TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\OverDraw.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ClearDraw.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EventBase.h">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EventManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EventMoveMap.h">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EventRescue.h">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Item.h">
+      <Filter>ソース ファイル\08_PlayScene\0814_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EventChangeScript.h">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\crude_json.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui_node_editor.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Imgui\imgui_canvas.h">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Palette.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreData.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GUIHelper.h">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NodeDefinition.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NodeEditor.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Canvas.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Serializer.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NodeValueRegistry.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BehaviorTree_Nodes.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BehaviorTree_Runner.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BehaviorTree_Actions.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Executor.h">
+      <Filter>ソース ファイル\08_PlayScene\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CDrawUtil.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NodeGraph.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ExecutorContext.h">
+      <Filter>ソース ファイル\08_PlayScene\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\InlineInput.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BattleSpawner.h">
+      <Filter>ソース ファイル\08_PlayScene\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\stb_image_write.h">
+      <Filter>ソース ファイル\追加ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FadeObject.h">
+      <Filter>ソース ファイル\08_PlayScene\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NavigationManager.h">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PauseObject.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ScoreCalculator.h">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NodeEvaluator.h">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnemyMecha.h">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ScreenshotManager.h">
+      <Filter>ソース ファイル\08_PlayScene\0809_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EditorScene.h">
+      <Filter>ソース ファイル\09_Editor\EditorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StageSelectScene.h">
+      <Filter>ソース ファイル\10_SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ModeSelectScene.h">
+      <Filter>ソース ファイル\10_SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Goal.h">
+      <Filter>ソース ファイル\08_PlayScene\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\AnimationSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\BulletSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\CollisionSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\ComponentPool.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Components.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Entity.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\MovementSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\ParticleSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\BulletSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\EnemyCollisionSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\EnemyPhysicsSystem.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\World.h">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ECS\Systems\EnemySystem.h">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル\00_Windowsメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMain.cpp">
+      <Filter>ソース ファイル\01_ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BBox.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Displace.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FbxMesh.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MyImgui.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MyMath.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite3D.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DInput.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Direct3D.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\XAudio.cpp">
+      <Filter>ソース ファイル\03_DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_demo.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_draw.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_widgets.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneManager.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneFactory.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SceneBase.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ObjectManager.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TitleScene.cpp">
+      <Filter>ソース ファイル\07_TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResourceManager.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainControl.cpp">
+      <Filter>ソース ファイル\00_Windowsメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CsvReader.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeshCollider.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ClearScene.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResultScore.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\Object3D.CPP">
+      <Filter>ソース ファイル\06_共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Animator.cpp">
+      <Filter>ソース ファイル\06_共通</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PlayScene.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0802_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapStage.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0809_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyBase.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapBase.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapMove.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextReader.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapSky.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapWave.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyGolem.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponBase.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponFireBall.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EffectBase.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EffectManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EffectBillboard.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EffectParticle.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EffectBillfire.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0806_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponFireBall2.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapTree.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0807_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponSword.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponGun.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WeaponLaser.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0805_Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AudioManager.cpp">
+      <Filter>ソース ファイル\05_フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DisplayInfo.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0810_DisplayInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DataCarrier.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\OverScene.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TitleDraw.cpp">
+      <Filter>ソース ファイル\07_TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\OverDraw.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ClearDraw.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EventBase.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EventManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EventMoveMap.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EventRescue.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Item.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0814_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EventChangeScript.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0808_Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\crude_json.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_node_editor.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_node_editor_api.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_canvas.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Imgui\imgui_tables.cpp">
+      <Filter>ソース ファイル\04_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Palette.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeDefinition.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeEditor.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Canvas.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CoreData.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GUIHelper.cpp">
+      <Filter>ソース ファイル\02_ゲームライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Serializer.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeValueRegistry.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BehaviorTree_Nodes.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BehaviorTree_Runner.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BehaviorTree_Actions.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Executor.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CDrawUtil.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeInstance.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeGraph.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InlineInput.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BattleSpawner.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourAlloc.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourCommon.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourNavMesh.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Detour\Source\DetourNode.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\Recast.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastAlloc.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastArea.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastContour.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastFilter.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastLayers.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastMesh.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastRasterization.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\recast\Recast\Source\RecastRegion.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NavigationManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Navimesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FadeObject.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PauseObject.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ScoreCalculator.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0801_PlayScene\09_ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NodeEvaluator.cpp">
+      <Filter>ソース ファイル\09_Editor\Visual_Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnemyMecha.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0804_Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ScreenshotManager.cpp">
+      <Filter>ソース ファイル\08_PlayScene\0809_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EditorScene.cpp">
+      <Filter>ソース ファイル\09_Editor\EditorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StageSelectScene.cpp">
+      <Filter>ソース ファイル\10_SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ModeSelectScene.cpp">
+      <Filter>ソース ファイル\10_SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Goal.cpp">
+      <Filter>ソース ファイル\08_PlayScene\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ECS\World.cpp">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ECS\Systems\BulletSystem.cpp">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ECS\Systems\EnemyCollisionSystem.cpp">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ECS\Systems\EnemyPhysicsSystem.cpp">
+      <Filter>ソース ファイル\11_MainSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Src\Main.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Src\Icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
